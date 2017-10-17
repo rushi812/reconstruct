@@ -1,0 +1,38 @@
+@media (max-width: 576px) {
+    #get-quote-hide {}
+    .nav-li {
+        padding: 15px !important;
+        background: #797979 !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .right-link {
+        width: 352px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #get-quote-hide {}
+    .nav-li {
+        padding: 15px !important;
+        background: #797979 !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .right-link {
+        width: 352px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    #get-quote-hide {}
+    .nav-li {
+        padding: 15px !important;
+        background: #797979 !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .right-link {
+        width: 352px !important;
+    }
+    .right-li {
+        width: 352px;
+    }
+}
