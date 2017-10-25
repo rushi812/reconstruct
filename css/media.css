@@ -6,40 +6,64 @@
         border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     }
     .right-link {
-        width: 352px !important;
-    }
-}
-
-@media (max-width: 768px) {
-    #get-quote-hide {}
-    .nav-li {
-        padding: 15px !important;
-        background: #797979 !important;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    }
-    .right-link {
-        width: 352px !important;
-    }
-}
-
-@media (max-width: 992px) {
-    #get-quote-hide {}
-    .nav-li {
-        padding: 15px !important;
-        background: #797979 !important;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    }
-    .right-link {
-        width: 352px !important;
+        width: 201px !important;
     }
     .right-li {
-        width: 352px;
+        width: 200px !important;
+    }
+}
+
+@media  (min-width: 576px) and (max-width: 767px)  {
+    #get-quote-hide {}
+    /*.nav-li {
+        padding: 15px !important;
+        background: #797979 !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }*/
+    .right-link {
+        width: 200px !important;
+    }
+    .right-li {
+        width: 200px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .right-link {
+        width: 200px !important;
+    }
+    .right-li {
+        width: 201px !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*#get-quote-hide {}*/
+    /*.nav-li {
+        padding: 15px !important;
+        background: #797979 !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }*/
+    .right-link {
+        width: 200px !important;
+    }
+    .right-li {
+        width: 475px !important;
     }
 }
 
 @media (min-width: 1200px) {
     .container {
         max-width: 1300px !important;
+    }
+    /*.nav-li {
+        padding: 15px !important;
+        background: #797979 !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }*/
+    .right-link {
+        width: 332px !important;
+    }
+    .right-li {
+        width: 512px !important;
     }
 }
 
