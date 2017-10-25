@@ -103,10 +103,10 @@ a.nav-a {
     padding: 0 15px;
 }
 .right-li{
-	width:352px;
+	width:512px; /*352px*/
 }
 .right-link {
-    width: 230px;
+    width: 332px; /*230px*/
     height: 70px;
     background: #EFA600;
     float:right;
@@ -125,7 +125,7 @@ a.nav-a {
     padding: 23px 0;
     font-weight: 700;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px; /*14px*/
     font-family: 'Open Sans';
     text-transform: uppercase;
 }
